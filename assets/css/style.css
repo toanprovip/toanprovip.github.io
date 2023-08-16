@@ -1,21 +1,21 @@
-*{              /*reset css*/
+  *{              /*reset css*/
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     
-}
-html{
+  }
+  html{
         width: 100%;
         height: 100%;
         scroll-behavior: smooth;  
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 8px;
         background-color: #28baa999;
-}
-.cursor_pointer{
+  }
+  .cursor_pointer{
     cursor: pointer;
-}
-#toanvjppro {
+  }
+  #toanvjppro {
     display: table;
     /* Important */
     width: 100%;
@@ -31,108 +31,4 @@ html{
     vertical-align: middle;
     /* Important */
   }
-  .center_main{
-    width: 350px;
-    height: 500px;
-    border-radius: 12px;
-    border: 2px solid #345;
-    background-color: #ffffffc7;
-    box-shadow: 4px 4px 12px #000;
-    transform: scale(1);
-    transition: all 0.4s ease-in-out;
-  }
-  .center_main:hover{
-    background-color: #ffffff9c;
-    border-radius: 16px;
-    transform: scale(1.02);
-    box-shadow: 6px 6px 24px #000;
-  }
-  #avatar_img img{
-    width: auto;
-    height: auto;
-    max-width: 400px;
-    max-height: 272px;
-    margin-left: 0px;
-    margin-top: 20px;
-    background-color: #00000022;
-    border-radius: 8px;
-    box-shadow: 1px 1px 4px #000;
-    border: 2px solid rgba(30, 34, 37, 0.648);
-    transform: scale(1);
-    transition: all 0.4s ease-in-out;
-  }
-  #avatar_img img:hover{
-    border-radius: 13px;
-    box-shadow: 2px 4px 12px #000;
-    transform: scale(1.05);
-  }
-  #name_of h3{
-    display: inline-block;
-    margin-top: 12px;
-    font-weight: 550;
-    transition: all 0.5s ease-in-out;
-    cursor: default;
-        &:hover{
-            color: #ff166fe6;
-        }
-}
-  #name_of p{
-    display: block;
-    font-size: 15px;
-    color: #345;
-    cursor: default;
-  }
-
-  .address{
-    margin-top: 12px;
-  }
-  .address i{
-    display: inline-block;
-        &:hover{
-            transition: all 0.65s;
-            transform: rotateY(180deg);
-        }
-  }
-  .address p{
-    font-weight: 550;
-    display: inline-block;
-  }
-  #social_of li a{
-    font-size: 20px;
-    text-decoration: none;
-    color: #000;
-    display: inline-block;
-    transition: all 0.6s ease-in-out    ;
-    &:hover{
-        color: #f308c06a;
-    }   
-  }
-  #social_of li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 4px;
-    transform: scale(1);
-    transition: all 0.25s ease-in-out;
-    &:hover{
-        transform: scale(1.05);
-        transform: rotateY(180deg);
-    }
-  }
-  #social_of ul{
-    margin-top: 24px;
-    transition: all 0.4s ease-in-out;
-  }
-  #footer_center{
-    display: inline-block;
-    margin-top: 40px;
-    font-size: 14px;
-    font-weight: 550;
-    transform: scale(1);
-    transition: all 0.5s ease-in-out;
-        &:hover{
-            cursor: pointer;
-            transform: scale(1.1);
-            font-weight: 650;
-            color: #0dcdef;
-        }
-  }
+  
