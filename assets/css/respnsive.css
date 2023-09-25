@@ -71,7 +71,7 @@
         text-decoration: none;
         color: #000;
         display: inline-block;
-        transition: all 0.3s ease-in-out    ;
+        transition: all 0.2s ease-in-out    ;
         &:hover{
             color: #0876f36a;
         }   
@@ -98,7 +98,7 @@
         padding-bottom: 3px;
         font-weight: 550;
         transform: scale(1);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
             &:hover{
                 cursor: pointer;
                 transform: scale(1.07);
